@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Css\style.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="Js\script.js"></script>
+
+    <header class="navbar">
+        <a class="logo" href="index.html"><img src="Images/Logo.svg"></a>
+        <nav>
+            <div class="sb-example-1">
+                <div class="search">
+                   <input type="text" class="searchTerm">
+                   <button type="submit" class="searchButton">
+                     <i class="fa fa-search"></i>
+                  </button>
+                </div>
+             </div>
+            <ul class="nav-list">
+                <li><a href="#"><button type="button" class="button1">MONTAR PRESENTE</button></a></li>
+                <li><a href="#"><button type="button" class="button2">CADASTRE-SE</button></a></li>
+                <li><label for="show" class="login">Login</label></li>
+            </ul>
+        </nav>
+        <a href="carrinho.html" class="basket"><img src="Images/basket.png"></a>
+    </header>
+
+    <div class="center">
+        <input type="checkbox" id="show">
+        <div class="container-login">
+            <label for="show" class="btn-close"></label>
+            <div class="img"><img src="Images/Logo.svg" alt="Logo"></div>
+            <form action="#">
+                <div class="data">
+                    <label>Email</label>
+                    <input type="text">
+                </div>
+                <div class="data">
+                    <label>Senha</label>
+                    <input type="password" required>
+                </div>
+                <div class="forgot">
+                    <a href="#">Esqueceu a Senha?</a>
+                    <a href="login.html" class="adm">Sou Administrador</a>
+                </div>
+                <div class="button3">
+                    <button type="submit">Logar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <nav class="subbar">
+        <ul class="topics">
+            <li><a href="#">Tipos de Flores</a></li>
+            <li><a href="#">Buquês de Flores</a></li>
+            <li><a href="#">Arranjos de Flores</a></li>
+            <li><a href="#">Flores em Vasos</a></li>
+            <li><a href="#">Ocasiões</a></li>
+            <li><a href="#">Presentes Especiais</a></li>
+            <li><a href="#">Produtos Exclusivos</a></li>
+            <li><a href="#">Cidades</a></li>
+            <li><a href="#">MarketPlace</a></li>
+        </ul>
+    </nav>
+
+    <div class="painel">
+        <div class="container">
+            <h1>Presenteie alguém</h1>
+            <h2>ESPECIAL</h2>
+            <div class="promo">
+                <h1>10%OFF</h1>
+                <div class="line"></div>
+                <h4>NA SUA PRIMEIRA COMPRA</h4>
+            </div>
+        </div>
+    </div>
+    <div class="container_cont">
+        <div class="cont_filtro">
+            <div class="cep">
+                <h6><img src="Images/cep2.png" alt="">Onde Será a entrega?</h6>
+                <div class="sb-example-1">
+                    <div class="search">
+                       <input type="text" class="searchTerm" placeholder="Digite seu CEP">
+                       <button type="submit" class="searchButton">
+                         <i class="fa fa-search"></i>
+                      </button>
+                    </div>
+                 </div>
+            </div>
+            <div class="filtros">
+                <h5><b>Presentes</b></h5>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Buquês">
+                    <label class="form-check-label" for="Buquês">Buquês</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Pelúcias">
+                    <label class="form-check-label" for="Pelúcias">Pelúcias</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Vasos">
+                    <label class="form-check-label" for="Vasos">Vasos</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Balões">
+                    <label class="form-check-label" for="Balões">Balões</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Almofadas">
+                    <label class="form-check-label" for="Almofadas">Almofadas</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Chocolates">
+                    <label class="form-check-label" for="Chocolates">Chocolates</label>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="filtros">
+                <h5><b>Flores</b></h5>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Astromélias">
+                    <label class="form-check-label" for="Astromélias">Astromélias</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Begônias">
+                    <label class="form-check-label" for="Begônias">Begônias</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Bromélias">
+                    <label class="form-check-label" for="Bromélias">Bromélias</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Hibiscos">
+                    <label class="form-check-label" for="Hibiscos">Hibiscos</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Plumerias">
+                    <label class="form-check-label" for="Plumerias">Plumerias</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Antúrios">
+                    <label class="form-check-label" for="Antúrios">Antúrios</label>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="filtros">
+                <h5><b>Cores</b></h5>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Amarelo"  style="background-color: rgb(233, 233, 5);">
+                    <label class="form-check-label" for="Amarelo">Amarelo</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Vermelho" style="background-color: red;">
+                    <label class="form-check-label" for="Vermelho">Vermelho</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Azul" style="background-color: blue;">
+                    <label class="form-check-label" for="Azul">Azul</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Roxo" style="background-color: purple;">
+                    <label class="form-check-label" for="Roxo">Roxo</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Laranja" style="background-color: orange;">
+                    <label class="form-check-label" for="Laranja">Laranja</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Verde" style="background-color: green;">
+                    <label class="form-check-label" for="Verde">Verde</label>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="filtros">
+                <h5><b>Preços</b></h5>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="valor1">
+                    <label class="form-check-label" for="valor1">Até R$25,00</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="valor2">
+                    <label class="form-check-label" for="valor2">De R$25,00 até R$50,00</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="valor3">
+                    <label class="form-check-label" for="valor3">De R$50,00 até R$100,00</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="valor4">
+                    <label class="form-check-label" for="valor4">Acima de R$100,00</label>
+                </div>
+            </div>
+        </div>
+        <div class="conteudo">
+            <div class="cartoes">
+                <div class="linha">
+                    <a href="itens.html" class="produto">
+                        <div class="produto_imagem">
+                            <img src="Images/ave_do_paraiso.png" alt="ave_do_paraiso">
+                        </div>
+                        <h6 class="produto_nome"><b>Ave-do-paraíso (Strelitizia)</b></h6>
+                        <div class="line"></div>
+                        <h3 class="produto_nome" style="margin-top: 18px;"><b>R$ 38,90</b></h3>
+                        <p class="produto_nome" style="margin-top: -8px;">Em até 6x sem juros</p>
+                    </a>
+                    <button type="submit" class="add">Adicionar a Cesta</button>
+                </div>
+                <div class="linha">
+                    <a href="#" class="produto">
+                        <div class="produto_imagem">
+                            <img src="Images/hibisco.png" alt="hibisco">
+                        </div>
+                        <h6 class="produto_nome"><b>Hibisco</b></h6>
+                        <div class="line"></div>
+                        <h3 class="produto_nome" style="margin-top: 18px;"><b>R$ 31,90</b></h3>
+                        <p class="produto_nome" style="margin-top: -8px;">Em até 6x sem juros</p>
+                    </a>
+                    <button type="submit" class="add">Adicionar a Cesta</button>
+                </div>
+                <div class="linha">
+                    <a href="#" class="produto">
+                        <div class="produto_imagem">
+                            <img src="Images/Orquideas.png" alt="Orquideas">
+                        </div>
+                        <h6 class="produto_nome"><b>Orquídeas</b></h6>
+                        <div class="line"></div>
+                        <h3 class="produto_nome" style="margin-top: 18px;"><b>R$ 55,90</b></h3>
+                        <p class="produto_nome" style="margin-top: -8px;">Em até 6x sem juros</p>
+                    </a>
+                    <button type="submit" class="add">Adicionar a Cesta</button>
+                </div>
+                <div class="linha">
+                    <a href="#" class="produto">
+                        <div class="produto_imagem">
+                            <img src="Images/Plumeria.png" alt="Plumeria">
+                        </div>
+                        <h6 class="produto_nome"><b>Plumeria</b></h6>
+                        <div class="line"></div>
+                        <h3 class="produto_nome" style="margin-top: 18px;"><b>R$ 36,90</b></h3>
+                        <p class="produto_nome" style="margin-top: -8px;">Em até 6x sem juros</p>
+                    </a>
+                    <button type="submit" class="add">Adicionar a Cesta</button>
+                </div>
+            </div>
+            <div class="cartoes">
+                <div class="linha">
+                    <a href="#" class="produto">
+                        <div class="produto_imagem">
+                            <img src="Images/Bromélia.png" alt="Bromélia">
+                        </div>
+                        <h6 class="produto_nome"><b>Bromélia</b></h6>
+                        <div class="line"></div>
+                        <h3 class="produto_nome" style="margin-top: 18px;"><b>R$ 48,50</b></h3>
+                        <p class="produto_nome" style="margin-top: -8px;">Em até 6x sem juros</p>
+                    </a>
+                    <button type="submit" class="add">Adicionar a Cesta</button>
+                </div>
+                <div class="linha">
+                    <a href="#" class="produto">
+                        <div class="produto_imagem">
+                            <img src="Images/Costela_de_Adao.png" alt="Costela_de_Adao">
+                        </div>
+                        <h6 class="produto_nome"><b>Costela de Adão</b></h6>
+                        <div class="line"></div>
+                        <h3 class="produto_nome" style="margin-top: 18px;"><b>R$ 35,70</b></h3>
+                        <p class="produto_nome" style="margin-top: -8px;">Em até 6x sem juros</p>
+                    </a>
+                    <button type="submit" class="add">Adicionar a Cesta</button>
+                </div>
+                <div class="linha">
+                    <a href="#" class="produto">
+                        <div class="produto_imagem">
+                            <img src="Images/Antúrio.png" alt="Antúrio">
+                        </div>
+                        <h6 class="produto_nome"><b>Antúrio</b></h6>
+                        <div class="line"></div>
+                        <h3 class="produto_nome" style="margin-top: 18px;"><b>R$ 30,00</b></h3>
+                        <p class="produto_nome" style="margin-top: -8px;">Em até 6x sem juros</p>
+                    </a>
+                    <button type="submit" class="add">Adicionar a Cesta</button>
+                </div>
+                <div class="linha">
+                    <a href="#" class="produto">
+                        <div class="produto_imagem">
+                            <img src="Images/cattleya.png" alt="cattleya">
+                        </div>
+                        <h6 class="produto_nome"><b>Cattleya</b></h6>
+                        <div class="line"></div>
+                        <h3 class="produto_nome" style="margin-top: 18px;"><b>R$ 61,90</b></h3>
+                        <p class="produto_nome" style="margin-top: -8px;">Em até 6x sem juros</p>
+                    </a>
+                    <button type="submit" class="add">Adicionar a Cesta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="encontre">
+        <button type="submit" class="add">Encontre mais Flores</button>
+    </div>
+    <div class="footer">
+        <div class="social">
+            <h5>ACOMPANHE NOSSAS REDES SOCIAIS</h5>
+            <img class="icon" src="Images/Instagram.svg" alt="instagram">
+            <img class="icon" src="Images/Pinterest.svg" alt="pinterest">
+            <img class="icon" src="Images/Twitter.svg" alt="twitter">
+            <img class="icon" src="Images/Facebook.svg" alt="facebook">
+            <img class="icon" src="Images/TikTok.svg" alt="tikTok">
+        </div>
+        <div class="adicionais">
+            <div class="container_info">
+                <ul style="list-style-type: none">
+                    <li><b>Atendimento</b></li>
+                    <li>81 99999-9999</li>
+                    <li>contato@flor&cultura.com</li>
+                    <li>Entregas de segunda à sexta:</li>
+                    <li>9h às 18h</li>
+                </ul>        
+            </div>
+            <div class="container_info">
+                <ul style="list-style-type: none">
+                    <li><b>Institucional</b></li>
+                    <li><a href="#">Quem Somos?</a></li>
+                    <li><a href="#">Seja nosso parceiro</a></li>
+                    <li><a href="#">Todas as lojas</a></li>
+                </ul>     
+            </div>
+            <div class="container_info">
+                <ul style="list-style-type: none">
+                    <li><b>Ajuda</b></li>
+                    <li><a href="#">Central de Atendimento</a></li>
+                    <li><a href="#">Como comprar</a></li>
+                    <li><a href="#">Trocas e devoluções</a></li>
+                </ul>  
+            </div>
+            <div class="container_info">
+                <p><b>Pagamento</b></p>
+                <div class="pagamento">
+                    <img src="Images/cartoes.svg" alt="cartoes">
+                    <div class="outros">
+                        <img src="Images/pix.svg" alt="pix">
+                        <img src="Images/boleto.svg" alt="boleto">
+                    </div>
+                </div>
+            </div>
+            <div class="container_info">
+                <p class="secure"><b>Segurança</b></p>
+                <img src="Images/secure.svg" alt="secure">
+            </div>
+        </div>
+        <div class="divider"></div>
+        <p class="desenvolvido">Desenvolvido por Flor&Cultura Tech. Todos os direitos reservados.</p>
+    </div>
+</body>
+</html>

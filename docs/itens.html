@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalhes</title>
+  <link rel="stylesheet" href="Css/itens.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <a class="logo" href="index.html"><img src="Images/Logo.svg"></a>
+    <nav>
+        <div class="sb-example-1">
+            <div class="search">
+               <input type="text" class="searchTerm">
+               <button type="submit" class="searchButton">
+                 <i class="fa fa-search"></i>
+              </button>
+            </div>
+         </div>
+        <ul class="nav-list">
+            <li><a href="#"><button type="button" class="button1">MONTAR PRESENTE</button></a></li>
+            <li><a href="#"><button type="button" class="button2">CADASTRE-SE</button></a></li>
+            <li><label for="show" class="login">Login</label></li>
+        </ul>
+    </nav>
+    <a href="carrinho.html" class="basket"><img src="Images/basket.png"></a>
+  </header>
+
+  <div class="center">
+    <input type="checkbox" id="show">
+    <div class="container-login">
+        <label for="show" class="btn-close"></label>
+        <div class="img"><img src="Images/Logo.svg" alt="Logo"></div>
+        <form action="#">
+            <div class="data">
+                <label>Email</label>
+                <input type="text">
+            </div>
+            <div class="data">
+                <label>Senha</label>
+                <input type="password" required>
+            </div>
+            <div class="forgot">
+                <a href="#">Esqueceu a Senha?</a>
+                <a href="login.html" class="adm">Sou Administrador</a>
+            </div>
+            <div class="button3">
+                <button type="submit">Logar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+  <nav class="subbar">
+    <ul class="topics">
+        <li><a  href="#">Tipos de Flores</a></li>
+        <li><a href="#">Buquês de Flores</a></li>
+        <li><a href="#">Arranjos de Flores</a></li>
+        <li><a href="#">Flores em Vasos</a></li>
+        <li><a href="#">Ocasiões</a></li>
+        <li><a href="#">Presentes Especiais</a></li>
+        <li><a href="#">Produtos Exclusivos</a></li>
+        <li><a href="#">Cidades</a></li>
+        <li><a href="#">MarketPlace</a></li>
+    </ul>
+</nav>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="Js\script.js"></script>
+
+  <div class="content">
+    <div class="item-image">
+      <img class="large-image" src="images\ave-do-paraiso.jpg" alt="img">
+      <div class="small-image">
+        <div class="image"><img src="https://www.blog-flores.pt/wp-content/uploads/2017/05/estrelicia-foto-33.jpg"
+            alt="img"></div>
+        <div class="image"><img
+            src="https://s2.glbimg.com/E-PdY6cG26To1wowrfP3-bneu8Q=/e.glbimg.com/og/ed/f/original/2016/08/31/como-plantar-estrelicia.png"
+            alt="img"></div>
+        <div class="image"><img
+            src="https://media.gazetadopovo.com.br/2022/02/21153130/ave-do-paraiso-haus-gazetadopovo-2-660x372.jpeg"
+            alt="img"></div>
+        <div class="image"><img src="https://i.pinimg.com/originals/2f/f5/82/2ff582a34d7a629503a4fc8791fd8824.jpg"
+            alt="img"></div>
+      </div>
+    </div>
+    <div class="item-description">
+      <div class="detail-itens">
+        <h2>Ave do Paraíso</h2>
+        <p class="availability">Disponibilidade: 135 unidades</p>
+        <p class="text-description">A ave do paraíso é uma flor originária da África do Sul, também conhecida como
+          estrelícia. É reconhecida por suas lindas flores alaranjadas e pode chegar a cerca de 1,2 metros de altura,
+          com folhas ovaladas grandes e duras. Seu cultivo se dá em regiões subtropicais e tropicais. É capaz de dar um
+          destaque muito especial para canteiros, parques e jardins, tornando os projetos paisagísticos mais
+          requintados. A espécie lembra um pássaro colorido.</p>
+        <div class="assesstment-cart">
+          <div class="assesstment">
+            <p class="text">Avaliação:</p>
+            <img class="image-assesstment" src="images\rating.png" alt="stars">
+          </div>
+          <div class="button-qtd-itens">
+            <form action="#" method="post">
+              <div class="container-quantity">
+                <input type="text" id="quantity" name="quantity" value="1">
+                <button type="button" id="increase-itens">+</button>
+                <a class="button-cart" href="#">Adicionar a Cesta</a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="detail-shipping">
+          <form>
+            <label for="cep">Calcule seu frete:</label>
+            <input type="text" class="cep-first-number" name="cep-first-number">
+            <input type="text" class="cep-second-number" name="cep-second-number">
+            <button type="submit">Calcular</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+</body>
+
+</html>
